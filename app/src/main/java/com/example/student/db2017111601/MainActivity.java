@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
         mylist.add(m2);
 
         HashMap<String, String> m3 = new HashMap<>();
-        m3.put("city", "台南");
-        m3.put("code", "06");
+        m3.put("city", "高雄");
+        m3.put("code", "07");
         mylist.add(m3);
         adapter = new SimpleAdapter(MainActivity.this,
                 mylist, R.layout.myitem,
